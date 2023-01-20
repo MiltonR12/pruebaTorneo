@@ -1,0 +1,34 @@
+.contInfo {
+  background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(../img/fondoinfo.jpg);
+  background-position: center center;
+  background-size: cover;
+  padding: 10px;
+  .parteInto {
+    max-width: 500px;
+    margin: 10px 0px;
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    border: 1px solid #ff57ca;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px 3px #000;
+    h3 {
+      color: #e600a5;
+      margin-bottom: 20px;
+    }
+    h4 {
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+    ul {
+      li {
+        list-style: none;
+        color: rgb(224, 224, 224);
+        line-height: 1.5;
+      }
+    }
+    p {
+      margin-bottom: 10px;
+    }
+  }
+}

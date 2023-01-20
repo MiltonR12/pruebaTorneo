@@ -1,0 +1,17 @@
+.contPie {
+  background-image: radial-gradient(
+    circle at 101.27% 31.34%,
+    #ff88fc 0,
+    #ff7bff 16.67%,
+    #ff69ff 33.33%,
+    #ff51fb 50%,
+    #d53cf6 66.67%,
+    #ac35f5 83.33%,
+    #8038f8 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+  font-size: 20px;
+}
